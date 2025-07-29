@@ -1,16 +1,41 @@
-# Youtube-Bot
-<h3> Youtube-bot is GUI based application captures screenshot from youtube of the input list of urls at input time and then make a picture for every captured screenshot with the input title and year with red background. Bot is based on a form containing four textboxes for; new-line separated urls,time in seconds, new-line separated title in hibrew and new-line separated years. 
+# 🎥 YouTube Bot
 
+> **YouTube Bot** is a GUI-based Python application that captures screenshots from YouTube videos at a specified timestamp and overlays them with the provided title and year (in Hebrew) on a red background.
 
-# Get Started
-<ul>
-  <li>Requires Python, BeautifulSoup, Requests</li>
-  <li>Python:3.5|3.6|3.7</li>
-  <li>A Python virtual env is recommended. See shortcut.</li>
-  </ul>
+---
 
-# Install Requirements in a virtual environment:
+## 🧰 Features
 
+- Capture screenshots from YouTube video URLs
+- Add Hebrew titles and years to the screenshots
+- Red background image generation
+- Easy-to-use GUI form with:
+  - ✅ New-line separated **YouTube URLs**
+  - ✅ Timestamp in **seconds**
+  - ✅ New-line separated **titles (in Hebrew)**
+  - ✅ New-line separated **years**
+
+---
+
+## 🚀 Get Started
+
+### 🔧 Requirements
+
+- Python: `3.5`, `3.6`, or `3.7`
+- Libraries: `BeautifulSoup`, `Requests`
+- Recommended: Use a **Python virtual environment**
+
+---
+
+### 💻 Installation
+
+```bash
+# Clone the repository
 git clone https://github.com/wasif-balol/Youtube-Bot.git
-cd Bot
+
+# Navigate to project directory
+cd Youtube-Bot
+
+# Install dependencies
 pip install -r requirements.txt
+
